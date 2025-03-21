@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sakana Shop</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="container">
+      <div class="container-logo">
+        <img class="logo-img" src="img/sakanashoprezise.png" alt="sakanashop">
+        <div class="logo">SAKANA SHOP</div>
+      </div>
+      <nav class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">Layanan</a>
+        <a href="#">Pembayaran</a>
+        <a href="#">Contact</a>
+      </nav>
+      <div class="social-icons">
+        <a href="#">FB</a>
+        <a href="#">IG</a>
+        <a href="#">YT</a>
+      </div>
+      <div class="menu-toggle">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="subheading">READY TO SERVE YOU</p>
+        <h1 class="animated-text">
+          <span class="highlight">S</span><span class="highlight">A</span><span class="highlight">K</span><span class="highlight">A</span><span class="highlight">N</span><span class="highlight">A</span><br/>
+          <span>S</span><span>H</span><span>O</span><span>P</span>
+        </h1>
+        <P class="keterangan">Mau top up game favorit? Pulsa & E-Money juga ada! <br> Sakana Shop solusinya! Gak ribet, langsung gaskeun! 🚀</P>
+        <a href="#" class="btn">See More</a>
+      </div>
+      <div class="hero-image">
+        <img src="img/aa-removebg-preview.png" alt="Maskot" />
+      </div>
+    </div>
+    <div class="carousel-indicator">
+      <span>01</span>
+      <span class="active">02</span>
+      <span>03</span>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <img src="img/sakanashoprezise.png" alt="Sakana Shop" />
+        <h2>Sakana Shop</h2>
+        <p>Mudah, Cepat, Aman! 🚀</p>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Menu</h3>
+        <a href="#">Home</a>
+        <a href="#">Layanan</a>
+        <a href="#">Pembayaran</a>
+        <a href="#">Contact</a>
+      </div>
+  
+      <div class="footer-contact">
+        <h3>Contact Us</h3>
+        <p>📞 WA: +62 8123-4567-890</p>
+        <p>📧 Email: sakanashop@gmail.com</p>
+        <div class="social-footer">
+          <a href="#">FB</a> | 
+          <a href="#">IG</a> | 
+          <a href="#">YT</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Sakana Shop. All rights reserved.
+    </div>
+  </footer>
+  
+
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+    
+    toggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
